@@ -29,6 +29,7 @@ public class BookController {
 	@RequestMapping(path = "/test", method = RequestMethod.GET)
 	public String getTest() {
 		System.out.println("git line");
+		System.out.println("git line 2");
 		return "code changed for git testing";
 	}
 
