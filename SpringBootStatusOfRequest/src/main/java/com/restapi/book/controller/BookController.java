@@ -28,6 +28,7 @@ public class BookController {
 //	Method to test postman 
 	@RequestMapping(path = "/test", method = RequestMethod.GET)
 	public String getTest() {
+		System.out.println("git line");
 		return "code changed for git testing";
 	}
 
