@@ -22,7 +22,7 @@ public class HomeController {
 	}
 	@RequestMapping("/form")
 	public String form() {
-
+		system.out.println("test");
 		return "form";
 	}
 
