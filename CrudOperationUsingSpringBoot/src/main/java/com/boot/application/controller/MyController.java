@@ -27,7 +27,6 @@ public class MyController {
 	@GetMapping("/index")
 	public String index() {
 		System.out.println("Working with JSP Page.");
-		System.out.println("Line added for git testing purpose");
 		return "index";
 	}
 
